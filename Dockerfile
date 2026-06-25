@@ -31,7 +31,6 @@ RUN \
   pass \
   gnupg \
   socat \
-  libcbor \
   libfido2 \
   libsecret && \
   adduser -s /bin/sh -D -u 99 protonmail && \
